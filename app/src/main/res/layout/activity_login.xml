@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/frameshape"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+              android:background="@drawable/frameshape"
+
+
+            android:layout_width="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+            >
+
+        <EditText
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="@color/main"
+                android:hint="Enter Enrollment No."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:ems="10"
+                android:id="@+id/enrollment"
+                android:background="@drawable/editshape" />
+
+            <TextView
+                android:text="STUDENT ONLY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"
+                android:typeface="normal"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView"
+                />
+
+            <Button
+                android:id="@+id/login"
+                android:text="LOGIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:background="@drawable/rounded_corner_bottom"
+
+                android:textColor="@android:color/white"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="55dp"
+                android:ems="20" />
+            <Button
+                android:text="SIGN UP"
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:background="@drawable/rounded_corner_bottom"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="55dp"
+                android:ems="20" />
+
+            <EditText
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+
+                android:padding="10dp"
+                android:textColorHint="@color/main"
+                android:hint="*********"
+                android:background="@drawable/editshape"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="50dp"
+                android:ems="10"
+                android:id="@+id/password"
+                />
+
+            <TextView
+                android:text="Forgot Password?"
+                android:textSize="15dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="300dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_hat"
+            android:id="@+id/imageView"
+            android:layout_marginTop="20dp"/>
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:foregroundGravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="250dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

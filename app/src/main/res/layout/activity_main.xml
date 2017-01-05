@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+<com.github.florent37.materialviewpager.MaterialViewPager
+    android:id="@+id/materialViewPager"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    style="@style/AppBaseTheme"
+    app:viewpager_disableToolbar="true"
+    app:viewpager_logo="@layout/header_logo"
+    app:viewpager_logoMarginTop="100dp"
+    app:viewpager_color="@color/main"
+    app:viewpager_headerHeight="200dp"
+    app:viewpager_headerAlpha="1.0"
+    app:viewpager_imageHeaderDarkLayerAlpha="0.2"
+    app:viewpager_hideToolbarAndTitle="false"
+    app:viewpager_hideLogoWithFade="true"
+    app:viewpager_enableToolbarElevation="true"
+    app:viewpager_parallaxHeaderFactor="1.5"
+    app:viewpager_headerAdditionalHeight="20dp"
+    app:viewpager_displayToolbarWhenSwipe="true"
+    app:viewpager_transparentToolbar="false"
+    app:viewpager_animatedHeaderImage="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+</com.github.florent37.materialviewpager.MaterialViewPager>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/MVP_AppTheme.ActionBarTheme"
+            tools:background="#3FFF"
+            android:layout_below="@+id/logoContainer">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView
+
+                    android:id="@+id/toolbar_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hat"
+
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="60dp"
+                    android:maxHeight="60dp" />
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="7dp"
+                    android:text="SmartColleage" />
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/login_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Login" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:id="@+id/content"
+        android:layout_centerInParent="true">
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:id="@+id/content2"
+        android:layout_centerInParent="true">
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
