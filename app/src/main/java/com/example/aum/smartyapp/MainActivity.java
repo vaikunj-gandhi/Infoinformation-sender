@@ -33,6 +33,7 @@ Toolbar toolbar;
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                    LoginActivity Fragment=new LoginActivity();
                 android.support.v4.app.FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.content,Fragment);
@@ -84,12 +85,12 @@ Toolbar toolbar;
             public HeaderDesign getHeaderDesign(int page) {
                 switch (page) {
                     case 0:imheader.setImageDrawable(getResources().getDrawable(R.drawable.home));
-                        return HeaderDesign.fromColorAndDrawable(getResources().getColor(R.color.main),getResources().getDrawable(R.drawable.book_name));
+                        return HeaderDesign.fromColorAndDrawable(getResources().getColor(R.color.colorPrimary),getResources().getDrawable(R.drawable.first));
                     case 1:
                         imheader.setImageDrawable(getResources().getDrawable(R.drawable.book_name));
-                        return HeaderDesign.fromColorAndDrawable(getResources().getColor(R.color.main),getResources().getDrawable(R.drawable.book_name));
+                        return HeaderDesign.fromColorAndDrawable(getResources().getColor(R.color.colorPrimary),getResources().getDrawable(R.drawable.second));
                     case 2:imheader.setImageDrawable(getResources().getDrawable(R.drawable.facult_icon));
-                        return HeaderDesign.fromColorAndDrawable(getResources().getColor(R.color.main),getResources().getDrawable(R.drawable.book_name));
+                        return HeaderDesign.fromColorAndDrawable(getResources().getColor(R.color.colorPrimary),getResources().getDrawable(R.drawable.third));
 
                 }
 

@@ -5,15 +5,15 @@
          />
     <item android:title="Subject document">
         <menu>
-            <item android:icon="@mipmap/a" android:id="@+id/assi" android:title="Assignment" />
-            <item android:icon="@mipmap/e" android:id="@+id/exper" android:title="Experiment" />
-            <item android:icon="@mipmap/n" android:id="@+id/note" android:title="Notes" />
-            <item android:icon="@mipmap/t" android:id="@+id/time" android:title="Time-Table" />
+            <item android:icon="@drawable/a" android:id="@+id/assi" android:title="Assignment" />
+            <item android:icon="@drawable/e" android:id="@+id/exper" android:title="Experiment" />
+            <item android:icon="@drawable/n" android:id="@+id/note" android:title="Notes" />
+            <item android:icon="@drawable/t" android:id="@+id/time" android:title="Time-Table" />
         </menu></item>
-    <item android:id="@+id/result" android:title="Mid-sem Result" />
+
     <item android:id="@+id/notice" android:title="Notice" />
     <item android:id="@+id/faculty" android:title="Faculty Details" />
-    <item android:id="@+id/logout" android:title="Logout" />
+
 
 
 </menu>

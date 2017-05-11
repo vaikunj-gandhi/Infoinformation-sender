@@ -1,18 +1,123 @@
 <resources>
-    <string name="app_name">SmartColeage</string>
+    <string name="app_name">Information Sender</string>
 
 
     <string name="action_example">Example action</string>
 
     <string name="action_settings">Settings</string>
-
+    <string name="clgclass">The institute possesses spacious and well equipped classrooms and tutorial rooms. Ergonomically designed, the classrooms have safe furniture and are student centered. The airy and well furnished classrooms provide the students with the apt studying atmosphere, helping develop concentration and attention spans in class. The classrooms also have the needed Facilities like sufficient light, checks blackboards for engineering graph drawings for clearer explanations.</string>
     <string name="title_activity_main2">Documents</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_main3">Main3Activity</string>
-
+    <string name="DownloadDocument">Download Document</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+    <string name="clgname">K J INSTITUTE OF ENGINEERING and TECHNOLOGY</string>
+    <string name="clgintro">\t\tK J Institute of Engineering and Technology offers various engineering degree Courses. The Institute has state-of-the-art infrastructure to provide a facilitating and enabling environment to students for their overall development. The Courses are designed and developed keeping in mind the current and future needs of the industry. Apart from this, extra-curricular Activities are also conducted to ensure students enjoy core studies and enhance their soft skills. Over and above this, the faculty is well-equipped to impart different. </string>
+    <string name="Concept">Core Concept</string>
 
+    <string name="unoder">\u2022\tDesign and process modeling experience
+\n\u2022\tOpen-ended problem solving\n\u2022\tTeamwork and project management skills\n\u2022\tOral, written and graphical communications skills
+    \n\u2022\tContemporary computer usage
+            \n\u2022\tMulti-disciplinary experience
+            \n\u2022\tEthical, professional, social and global awareness
+    </string>
+    <string name="time2">Institute Timings</string>
+  <string name="time">\u2022\t<b>Monday to Saturday</b>: 09.00 AM to 05.00 PM
+            \n\u2022\tInstitute will remain closed on All Sundays and Public Holiday</string>
+    <string name="mech">MECHANICAL ENGINEERING</string>
+    <string name="details"><b>Duration:</b>4 Years</string>
+    <string name="details2"><b>Semester System: </b>Yes</string>
+    <string name="details3"><b>Seat Remarks:</b> 120</string>
+    <string name="details6"><b>Seat Remarks:</b> 60</string>
+    <string name="details4"><b>Admission Open: </b>Yes</string>
+    <string name="elec">ELECTRICAL ENGINEERING</string>
+    <string name="civil">CIVIL ENGINEERING</string>
+    <string name="ec">ELECTRONICS and COMMUNICATION</string>
+    <string name="auto">AUTOMOBILE ENGINEERING</string>
+    <string name="comp">COMPUTER ENGINEERING</string>
+    <string name="it">INFORMATION TECHNOLOGY</string>
+    <string name="person_name">Kate Jennifer</string>
+    <string name="person_address">24 Lords Crescent, USA </string>
+    <string name="logo_desc">App logo</string>
+    <string name="thecampus">The campus is nestled amidst lush green surroundings. It is away from the noise and pollutions of urban areas and yet provides modern facilities. The campus has been designed and built keeping in mind the requirements of young minds, and provides ample space for outdoor activities. It is well-connected to Vadodara through highway. It is close to an industrial area, hence offering the students advantages such as industrial training, employment opportunities etc.</string>
+    <string name="thecampus2">THE CAMPUS</string>
+    <string name="thecampus3">Both the institutes, i.e., <b> K. J. Institute of Engineering and Technology </b> are approved by AICTE and  afiiliated to <b>Gujarat Technological University.</b></string>
+
+    <string name="thecampus4">Institutions run by <b>Jayka Jan Sahayak Trust</b> at <b>K J Campus, Savli</b> are:</string>
+    <string name="thecampus5">\t\t\u2022\tK. J. Institute of Engineering and Technology \t\t(Degree Engineering College)
+           </string>
+    <string name="vision"> To provide quality education and environment that stimulate and responds to the needs of the 21st Century India, and prepare the students for leadership in their profession and society. It also aims at conducting research addressing critical needs of society leading to economic development.</string>
+<string name="vision2">\t\u2022\tPrepare students for successful career, based on strong moral and ethical foundations.
+    \t\n\u2022\tAdvance and achieve state-of-the-art knowledge in engineering.
+    \t\n\u2022\tServe professional and technical engineering.
+    \t\n\u2022\tContribute to global society.
+           </string>
+    <string name="action_logout">Logout</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+    <string name="clgintro2">The KJIT library is well stocked with books related to engineering and technology; industry related topics as well as world News. With over 8500 volumes of various topics, the library is constantly updated with the latest magazines, News papers, national and international journals, reference books and other material at regular periods. The library also owns its digital set up which is the e-journal initiative through which it offers students\' access to international libraries around the world. The institute also offers the students access to DELNET and J-GATE union catalogue as a member></string>
+    <string name="clgclass2">KJIT is working towards a vision of creating dynamic and proficient engineers who are technically and holistically prepared for the world. Looking at this, they provide their students with computer proficiency classes to incorporate modern day technical values. The institute possesses air conditioned computer laboratories with 24 hour internet Facilities free of cost to its students. The internet facility provided at the laboratories is through radio frequency with 4 mbps internet Leased line.</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
 </resources>

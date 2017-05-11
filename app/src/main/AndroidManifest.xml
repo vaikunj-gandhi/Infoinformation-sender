@@ -3,15 +3,21 @@
     package="com.example.aum.smartyapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    &lt;!-- Permission required for Checking Internet Connection -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    &lt;!-- Permission required for Reading Writing SD Card/Memory -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
+    ;
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    ;
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
     <meta-data
         android:name="io.fabric.ApiKey"
         android:value="29cbd600bb8183011201895a931db91e93f2d614" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_hat"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -27,8 +33,199 @@
         </activity>
         <activity android:name=".Reg_Activity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Main2Activity" />
-
-    </application>
-
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home_main"
+            android:label="STUDENT DATA"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Institute"
+            android:label="Institute"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Institute" />
+        </activity>
+        <activity
+            android:name=".Academics"
+            android:label="Academics"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".Facilities"
+            android:label="Facilities"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Institute" />
+        </activity>
+        <activity
+            android:name=".Activities"
+            android:label="News and Notice"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Institute" />
+        </activity>
+        <activity
+            android:name=".BusRoute"
+            android:label="Bus Routes"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Institute" />
+        </activity>
+        <activity
+            android:name=".Course"
+            android:label="Course Details"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".Elaectrical"
+            android:label="Elecrical"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".Civil"
+            android:label="Civil"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".Ec"
+            android:label="Electronics and Communication"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".Auto"
+            android:label="Automobile"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".Comp"
+            android:label="Comp"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".IT"
+            android:label="IT"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Academics" />
+        </activity>
+        <activity
+            android:name=".The_Campus"
+            android:label="THE CAMPUS"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Vision"
+            android:label="Vision and Mission"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".NEWS_HOME"
+            android:label="News and Update"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Faculty_detail"
+            android:label="Faculty"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".Faculty_detailsHome"
+            android:label="Faculty"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Faculty_detail" />
+        </activity>
+        <activity android:name=".ForgotPwd"
+            android:label="Forgot Password"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".AppBase"
+            android:theme="@style/AppTheme4"/>
+        <activity
+            android:name=".profile_activity"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".Student_Registartion"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".profile_activity" />
+        <activity
+            android:name=".noteCreate"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".noteActivity" />
+        <activity
+            android:name=".attendanceActivity"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".Result_activity"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".cgpa_activity" />
+        <activity
+            android:name=".cgpa_activity"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".noteActivity"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".scheduler"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".make_schedule"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".scheduler" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/AppTheme4"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".About"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".Edit_Student"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase" />
+        <activity android:name=".Findstudent"
+            android:theme="@style/AppTheme4"
+            android:parentActivityName=".AppBase">
+        </activity>
+        <activity android:name=".Profile_Faculty"/>
+</application>
 </manifest>

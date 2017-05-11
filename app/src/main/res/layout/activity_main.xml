@@ -16,7 +16,7 @@
     app:viewpager_disableToolbar="true"
     app:viewpager_logo="@layout/header_logo"
     app:viewpager_logoMarginTop="100dp"
-    app:viewpager_color="@color/main"
+    app:viewpager_color="@color/colorPrimary"
     app:viewpager_headerHeight="200dp"
     app:viewpager_headerAlpha="1.0"
     app:viewpager_imageHeaderDarkLayerAlpha="0.2"
@@ -25,7 +25,7 @@
     app:viewpager_enableToolbarElevation="true"
     app:viewpager_parallaxHeaderFactor="1.5"
     app:viewpager_headerAdditionalHeight="20dp"
-    app:viewpager_displayToolbarWhenSwipe="true"
+    app:viewpager_displayToolbarWhenSwipe="false"
     app:viewpager_transparentToolbar="false"
     app:viewpager_animatedHeaderImage="true"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,7 +46,9 @@
             android:theme="@style/MVP_AppTheme.ActionBarTheme"
             tools:background="#3FFF"
             android:layout_below="@+id/logoContainer">
-            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
                 <ImageView
 
                     android:id="@+id/toolbar_icon"
@@ -66,7 +68,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="0dp"
                     android:layout_marginTop="7dp"
-                    android:text="SmartColleage" />
+                    android:text="Information Sender" />
                 <TextView
                     android:textSize="15dp"
                     android:textColor="#ffffff"
@@ -76,7 +78,7 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:layout_marginRight="15dp"
-                    android:layout_marginLeft="100dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="7dp"
                     android:text="Login" />
             </LinearLayout>
@@ -84,7 +86,7 @@
     </LinearLayout>
     <FrameLayout
         android:layout_width="300dp"
-        android:layout_height="350dp"
+        android:layout_height="310dp"
         android:id="@+id/content"
         android:layout_centerInParent="true">
 

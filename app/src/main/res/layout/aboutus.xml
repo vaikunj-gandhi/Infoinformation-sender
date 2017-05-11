@@ -2,12 +2,219 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="about us"
-        android:id="@+id/textView9"
-        android:layout_gravity="center_horizontal" />
+        android:text="Update Your Profile"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+
+        />
+
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Enrollment No."
+           android:textSize="20dp"
+           android:textColor="@android:color/black"
+
+           />
+       <EditText
+
+           android:layout_width="230dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:padding="10dp"
+           android:textColorHint="@android:color/black"
+           android:hint="Enter Enrollment No."
+           android:textColor="@android:color/black"
+           android:id="@+id/enrollment_a"
+           android:background="@drawable/editshape"
+
+           />
+
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Your name.       "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Enter Name."
+            android:textColor="@android:color/black"
+            android:id="@+id/name_a"
+            android:background="@drawable/editshape"
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your email        "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:padding="10dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Enter Email."
+            android:textColor="@android:color/black"
+            android:id="@+id/email_a"
+            android:background="@drawable/editshape"
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Mobile      "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Enter Mobile No."
+            android:textColor="@android:color/black"
+            android:id="@+id/mobile_a"
+            android:background="@drawable/editshape"
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Semester "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Enter Semester "
+            android:textColor="@android:color/black"
+            android:id="@+id/sem_a"
+            android:background="@drawable/editshape"
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Branch     "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColorHint="@android:color/black"
+            android:hint="Enter branch"
+            android:textColor="@android:color/black"
+            android:id="@+id/branch_a"
+            android:background="@drawable/editshape"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/update_a"
+            android:text="Upadate My Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:background="@drawable/rounded_corner_bottom"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="25dp"
+            android:ems="20" />
+
+    </LinearLayout>
+
 </LinearLayout>
