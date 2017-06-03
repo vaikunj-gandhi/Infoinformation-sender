@@ -1,2 +1,5 @@
-# Viewpager-with-Navigation
-Viewpager with Navigation And loign with Volley
+# Information Sender
+This project is an online portal between students and faculty. This innovative system allows college faculty to share important data as well as notifications with engineering students. It consists of a faculty login along with student login. Since college faculty operates through pc and document uploading is simpler through a pc, the faculty login isto be performed through a computer. Faculty may upload documents of subject syllabus, timetable document, notifications, e notes etc. through their provided login. The documents are uploaded by faculty to different corresponding departments. We propose to build this system on an online server that allows faculty to upload data and students may view search and download required documents through their android device. Here students only see and download data of their particular semester. Rest data is hidden. Faculty may access and upload/edit documents to any semester or add any notice as desired.
+![5](https://cloud.githubusercontent.com/assets/22740194/26755120/8eecc782-48a4-11e7-9ee3-49905e409a95.PNG)
+![3](https://cloud.githubusercontent.com/assets/22740194/26755121/8ef2cb8c-48a4-11e7-8dd8-24958c4855a5.PNG)
+![4](https://cloud.githubusercontent.com/assets/22740194/26755122/8ef430a8-48a4-11e7-9bbd-b183acf16f6c.PNG)
