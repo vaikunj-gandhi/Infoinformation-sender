@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frameshape">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+
+
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/frameshape">
+
+        <EditText
+            android:id="@+id/faculty_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/editshape"
+            android:ems="10"
+            android:hint="Enter Email Id"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textCursorDrawable="@drawable/cursor_color" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="FACULTY LOGIN"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/faculty_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rounded_corner_bottom"
+            android:ems="20"
+            android:padding="10dp"
+            android:text="LOGIN"
+            android:textColor="@android:color/white" />
+
+
+        <EditText
+            android:id="@+id/faculty_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/editshape"
+            android:ems="10"
+            android:hint="**********"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textCursorDrawable="@drawable/cursor_color" />
+
+        <TextView
+            android:id="@+id/faculty_forgotpwd"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="260dp"
+            android:text="Forgot Password?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_hat" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_close" />
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_left" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

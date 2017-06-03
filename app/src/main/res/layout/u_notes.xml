@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:layout_marginBottom="@dimen/cardMarginVertical"
+    android:layout_marginLeft="@dimen/cardMarginHorizontal"
+    android:layout_marginRight="@dimen/cardMarginHorizontal"
+    android:layout_marginTop="@dimen/cardMarginVertical"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#FAFAFA"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textstream"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:padding="5dip"
+                android:text="Symbol"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="5dip"
+                android:text="Price" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textsem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/navigationBarColor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textsem"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="13dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/navigationBarColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
