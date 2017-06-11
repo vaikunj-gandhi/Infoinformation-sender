@@ -3,13 +3,13 @@
     package="com.example.aum.smartyapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    &lt;!-- Permission required for Checking Internet Connection -->
+   
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    &lt;!-- Permission required for Reading Writing SD Card/Memory -->
+ 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    ;
+  
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    ;
+
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <meta-data
         android:name="io.fabric.ApiKey"
