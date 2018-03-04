@@ -3,13 +3,13 @@
     package="com.example.aum.smartyapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    &lt;!-- Permission required for Checking Internet Connection -->
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    &lt;!-- Permission required for Reading Writing SD Card/Memory -->
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    ;
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    ;
+
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <meta-data
         android:name="io.fabric.ApiKey"
@@ -175,56 +175,56 @@
             android:theme="@style/AppTheme4"/>
         <activity
             android:name=".profile_activity"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".Student_Registartion"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".profile_activity" />
+            android:parentActivityName=".profile_activity"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".noteCreate"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".noteActivity" />
+            android:parentActivityName=".noteActivity"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".attendanceActivity"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".Result_activity"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".cgpa_activity" />
+            android:parentActivityName=".cgpa_activity"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".cgpa_activity"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".noteActivity"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".scheduler"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".make_schedule"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".scheduler" />
+            android:parentActivityName=".scheduler"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".SettingsActivity"
-            android:theme="@style/AppTheme4"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".About"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity
             android:name=".Edit_Student"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase" />
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4" />
         <activity android:name=".Findstudent"
-            android:theme="@style/AppTheme4"
-            android:parentActivityName=".AppBase">
+            android:parentActivityName=".AppBase"
+            android:theme="@style/AppTheme4">
         </activity>
         <activity android:name=".Profile_Faculty"/>
 </application>
